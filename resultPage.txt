@@ -1,0 +1,1675 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="telephone=no, address=no, email=no" />
+	<meta name="viewport" content="width=device-width, user-scalable=yes" />
+	<meta name="description" content="수서고속철도, SRT, 수서~부산(경부선), ~목포(호남선), 승차권 예매, 운행정보 안내" />
+	<meta name="naver-site-verification" content="0a893b6cf32c1efffb45bae4d7f442b5b74f7f84" />
+	<title>일반승차권 &lt; 승차권예약 &lt; 승차권 - SR - Supreme Railways</title>
+	<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="/css/common.css" />
+	<link rel="stylesheet" type="text/css" href="/css/layout.css?ver=20170913" />
+	<link rel="stylesheet" type="text/css" href="/css/contents.css" />
+
+	<link rel="stylesheet" type="text/css" href="/css/ticket.css?ver=20170120" />
+
+	<link rel="stylesheet" type="text/css" href="/js/jquery/plugin/jquery-ui/1.12.1/jquery-ui.css" />
+
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css" /><![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/css/ie8.css" /><![endif]-->
+	<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/css/ie9.css" /><![endif]-->
+	<script src="https://connect.facebook.net/signals/config/360841527675197?v=2.8.34&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript">
+	//&lt;![CDATA[
+		var MAIN_CONTEXT_PATH = '';
+		var WWW_DOMAIN = 'https://www.srail.co.kr';
+		var cfg = {
+			contextPath : '',
+			isLogin : false
+		};
+
+	
+	
+		document.domain = 'srail.co.kr';
+	
+
+	//]]&gt;
+	</script>
+	<script type="text/javascript" src="/js/jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">var $J = $.noConflict();</script>
+	<script type="text/javascript" src="/js/prototype/prototype.1.7.2.js"></script>
+	<script type="text/javascript" src="/js/scriptaculous/1.9.0/scriptaculous.js?load=builder,effects"></script><script type="text/javascript" src="https://etk.srail.co.kr/js/scriptaculous/1.9.0/builder.js"></script><script type="text/javascript" src="https://etk.srail.co.kr/js/scriptaculous/1.9.0/effects.js"></script>
+	<script type="text/javascript" src="/js/Common.js"></script>
+	<script type="text/javascript" src="/js/Navi.js"></script>
+
+	<script type="text/javascript" src="/js/IFrame.js"></script>
+
+	<script type="text/javascript" src="/js/jquery/plugin/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="/js/netfunnel/netfunnel-pr.1.0.js"></script>
+
+	<script type="text/javascript" src="/js/netfunnel/skin/sr.1.0.js"></script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '360841527675197');
+  fbq('track', 'PageView');
+</script>
+<noscript>&lt;img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=360841527675197&amp;ev=PageView&amp;noscript=1"
+/&gt;</noscript>
+<!-- End Facebook Pixel Code -->
+
+<script src="https://nf.letskorail.com:443/ts.wseq?opcode=5101&amp;nfid=0&amp;prefix=NetFunnel.gRtype=5101;&amp;sid=service_1&amp;aid=act_9&amp;js=true&amp;1544511354984"></script></head>
+<body>
+
+	<div id="wrap">
+		<dl class="skip-navigation">
+			<dt>바로가기 메뉴</dt>
+			<dd>
+				<a href="#container">본문 바로가기</a>
+			</dd>
+		</dl>
+		<!-- 상단 -->
+		<div class="header">
+			<div class="logo">
+				<h1><a href="/main.do"><img src="/images/common/logo.png" alt="SR 로고" /></a></h1>
+				<div class="util">
+					<ul>
+				
+					
+						<li class="fst"><a href="/cmc/01/selectLoginForm.do?pageId=TK0701000000">로그인</a></li>
+						<li><a href="/cmc/02/selectJoinInfo.do?pageId=TK0702000000">회원가입</a></li>
+					
+					
+				
+						
+						<li class="www"><a href="https://www.srail.co.kr/main.do" target="_blank" title="새창으로 열기"><em>SR</em> 회사소개</a></li>
+						
+						
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div id="gnb" class="menu">
+				<ul>
+				
+					<li class="menu-01 first"><a href="?pageId=TK0100000000" onclick="Navi.showMenuLayer(1); return false;"><img src="/images/gnb/gnb_TK0100000000.png" alt="승차권" /></a>
+						<ul>
+						
+							<li><a href="/hpg/hra/01/selectScheduleList.do?pageId=TK0101010000">승차권예약</a>
+							
+							
+								
+							
+							</li>
+						
+							<li><a href="/hpg/hra/02/selectReservationList.do?pageId=TK0102010000">발권/취소/변경</a>
+							
+							
+								
+								<ul>
+									
+									<li><a href="/hpg/hra/02/selectReservationList.do?pageId=TK0102010000">발권/취소(반환)</a></li>
+									
+									<li><a href="/hpg/hca/01/selectChangeList.do?pageId=TK0102020000">예약변경</a></li>
+									
+									<li><a href="/hpg/hta/03/selectBreakdownList.do?pageId=TK0102030000">이용내역/영수증</a></li>
+									
+									<li><a href="/hpg/hta/02/selectWctRfndInfo.do?pageId=TK0102040000">인터넷반환접수</a></li>
+									
+								</ul>
+								
+							
+							</li>
+						
+							<li><a href="/hpg/hma/04/selectAuthUserForm.do?pageId=TK0104020000">미등록고객서비스</a>
+							
+							
+								
+								<ul>
+									
+									<li><a href="/hpg/hma/04/selectAuthUserForm.do?pageId=TK0104020000">발권/취소(반환)</a></li>
+									
+									<li><a href="/hpg/hma/04/selectAuthUserForm.do?pageId=TK0104030000">승차권재발권</a></li>
+									
+									<li><a href="/hpg/hma/04/selectAuthUserForm.do?pageId=TK0104040000">이용내역/영수증</a></li>
+									
+								</ul>
+								
+							
+							</li>
+						
+						
+						</ul>
+					</li>
+				
+					<li class="menu-02"><a href="http://tour.srail.co.kr/main/index.php?pageId=TK0900000000" target="_blank" title="새창 열기"><img src="/images/gnb/gnb_TK0900000000.png" alt="여행상품" /></a>
+						<ul>
+						
+							<li><a href="http://tour.srail.co.kr/goods/goods_list.php?cateCd=001&amp;pageId=TK0901000000" target="_blank" title="새창 열기">SRT BEST 여행상품</a>
+							
+							
+							</li>
+						
+							<li><a href="http://tour.srail.co.kr/goods/goods_list.php?cateCd=002&amp;pageId=TK0902000000" target="_blank" title="새창 열기">지역별 여행상품</a>
+							
+							
+							</li>
+						
+							<li><a href="http://tour.srail.co.kr/goods/goods_list.php?cateCd=003&amp;pageId=TK0903000000" target="_blank" title="새창 열기">당일 여행상품</a>
+							
+							
+							</li>
+						
+							<li><a href="http://tour.srail.co.kr/goods/goods_list.php?cateCd=004&amp;pageId=TK0904000000" target="_blank" title="새창 열기">1박2일 여행상품</a>
+							
+							
+							</li>
+						
+							<li><a href="http://tour.srail.co.kr/goods/goods_list.php?cateCd=005&amp;pageId=TK0905000000" target="_blank" title="새창 열기">2박3일 여행상품</a>
+							
+							
+							</li>
+						
+							<li><a href="http://tour.srail.co.kr/goods/goods_list.php?cateCd=006&amp;pageId=TK0906000000" target="_blank" title="새창 열기">해외 여행상품</a>
+							
+							
+							</li>
+						
+						
+						</ul>
+					</li>
+				
+					<li class="menu-03"><a href="https://www.srail.co.kr/cms/archive.do?pageId=KR0401000000" onclick="Navi.showMenuLayer(3); return false;"><img src="/images/gnb/gnb_TK0800000000.png" alt="SRT" /></a>
+						<ul>
+						
+							<li><a href="https://www.srail.co.kr/cms/archive.do?pageId=KR0401000000">개요</a>
+							
+							
+							</li>
+						
+							<li><a href="https://www.srail.co.kr/cms/archive.do?pageId=KR0402010000">서비스</a>
+							
+							
+							</li>
+						
+							<li><a href="https://www.srail.co.kr/cms/archive.do?pageId=KR0403000000">VR</a>
+							
+							
+							</li>
+						
+							<li><a href="https://www.srail.co.kr/cms/article/list.do?pageId=KR0404000000">SRT 브랜드 웹툰</a>
+							
+							
+							</li>
+						
+						
+						</ul>
+					</li>
+				
+					<li class="menu-04"><a href="/cms/archive.do?pageId=TK0501010000" onclick="Navi.showMenuLayer(4); return false;"><img src="/images/gnb/gnb_TK0500000000.png" alt="SR소식" /></a>
+						<ul>
+						
+							<li><a href="/cms/article/list.do?pageId=TK0502000000">공지사항</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0501010000">고객서비스헌장</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0501020000">여객운송약관</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0501050000">안내사항</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0503010000">회원서비스</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/article/list.do?pageId=TK0504000000">FAQ</a>
+							
+							
+							</li>
+						
+						
+						</ul>
+					</li>
+				
+					<li class="menu-05"><a href="/cms/archive.do?pageId=TK0401010000" onclick="Navi.showMenuLayer(5); return false;"><img src="/images/gnb/gnb_TK0400000000.png" alt="이용안내" /></a>
+						<ul>
+						
+							<li><a href="/cms/archive.do?pageId=TK0401010000">종합이용안내</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0402010000">승차권이용안내</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0503010000">회원서비스</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0403010100">기차역정보</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0404010000">유실물 안내</a>
+							
+							
+							</li>
+						
+							<li><a href="/sss/scb/01/list.do?pageId=TK0405010000">고객의 소리</a>
+							
+							
+								
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0406010000">SR 고객센터</a>
+							
+							
+							</li>
+						
+							<li><a href="/cms/archive.do?pageId=TK0407010100">부대사업 안내</a>
+							
+							
+							</li>
+						
+						
+						</ul>
+					</li>
+				
+					<li class="menu-06"><a href="/cmc/03/main.do?pageId=TK0200000000" onclick="Navi.showMenuLayer(6); return false;"><img src="/images/gnb/gnb_TK0200000000.png" alt="마이페이지" /></a>
+						<ul>
+						
+							<li><a href="/hpg/hta/03/selectRefundChargeList.do?pageId=TK0201020000">승차권이용내역</a>
+							
+							
+								
+							
+							</li>
+						
+							<li><a href="/hpg/hra/06/selectDscCpnList.do?pageId=TK0202000000">할인쿠폰</a>
+							
+							
+							</li>
+						
+							<li><a href="/hpg/hra/06/selectDlyDscList.do?pageId=TK0203000000">지연할인증</a>
+							
+							
+							</li>
+						
+							<li><a href="/hpg/hta/04/selectDlyTkList.do?pageId=TK0205010000">열차지연배상신청</a>
+							
+							
+							</li>
+						
+							<li><a href="/cmc/03/selectUserForm.do?pageId=TK0204010000">회원정보관리</a>
+							
+							
+								
+								<ul>
+									
+									<li><a href="/cmc/03/selectUserForm.do?pageId=TK0204010000">정보수정</a></li>
+									
+									<li><a href="/cmc/03/selectPassForm.do?pageId=TK0204020000">비밀번호변경</a></li>
+									
+									<li><a href="/cmc/03/selectAuthForm.do?pageId=TK0204030000">이메일/휴대전화인증</a></li>
+									
+									<li><a href="/cmc/03/selectWithdrawForm.do?pageId=TK0204040000">회원탈회</a></li>
+									
+								</ul>
+								
+							
+							</li>
+						
+						
+						</ul>
+					</li>
+				
+				</ul>
+				<div class="clear"></div>
+			</div>
+			<div class="screen"></div>
+		</div>
+	
+		<!-- 내용 -->
+		<div class="center">
+			<div id="container" class="container" tabindex="-1">
+				<div class="location">
+					<h2><img src="/images/title/TK0101010000.png" alt="일반승차권" /></h2>
+					<dl>
+						<dt>현재위치</dt>
+						<dd><a href="/main.do" class="home">홈</a> &gt; <a href="?pageId=TK0100000000">승차권</a> &gt; <a href="/hpg/hra/01/selectScheduleList.do?pageId=TK0101010000">승차권예약</a> &gt; <a href="/hpg/hra/01/selectScheduleList.do?pageId=TK0101010000" class="last">일반승차권</a></dd>
+					</dl>
+				</div>
+	
+
+
+
+<div class="contents etk-seat">
+	<div class="step">
+		<dl>
+			<dt>조회</dt>
+			<dd><em class="step-01 on">조회</em> &gt; <em class="step-02">예약</em> &gt; <em class="step-03">결제</em> &gt; <em class="step-04">발권</em></dd>
+		</dl>
+	</div>
+	<div class="tab">
+		<h3>일반승차권</h3>
+		<ul>
+			<li class="first on"><a href="selectScheduleList.do?pageId=TK0101010000">일반승차권</a></li>
+			<li><a href="selectGroupScheduleList.do?pageId=TK0101020000">단체승차권</a></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="search-form">
+		<form name="search-form" id="search-form" action="/hpg/hra/01/selectScheduleList.do?pageId=TK0101010000" onsubmit="return (function () {&#10;&#9;&#9;&#9;$(this).getElementsBySelector('input[name=prvTms]').findAll(function (s) {&#10;&#9;&#9;&#9;&#9;s.remove();&#10;&#9;&#9;&#9;}.bind(this));&#10;&#10;&#9;&#9;&#9;if (!checkScheduleInfo(true)) {&#10;&#9;&#9;&#9;&#9;return false;&#10;&#9;&#9;&#9;}&#10;&#10;&#9;&#9;&#9;NetFunnel_Action({}, function() {&#10;&#9;&#9;&#9;&#9;this.submit();&#10;&#9;&#9;&#9;}.bind(this));&#10;&#10;&#9;&#9;&#9;return false;&#10;&#9;&#9;}.bind(this))(event)" method="post">
+			<fieldset>
+				<legend>열차 검색영역</legend>
+				<input type="hidden" name="dptRsStnCd" id="dptRsStnCd" value="0508" />
+				<input type="hidden" name="arvRsStnCd" id="arvRsStnCd" value="0552" />
+				<input type="hidden" name="stlbTrnClsfCd" value="05" />
+				<input type="hidden" name="psgNum" value="3" />
+				<input type="hidden" name="seatAttCd" value="015" />
+				<input type="hidden" name="isRequest" value="Y" />
+				
+				
+				<div class="select">
+					<dl class="hide">
+						<dt>출발/도착</dt>
+						<dd>
+							<input type="text" name="dptRsStnCdNm" id="dptRsStnCdNm" value="수서" class="input stn checkForm ui-autocomplete-input" maxlength="10" option="{isMust : true, message : '출발역을 입력하십시오.'}" onkeyup="(function () {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var e = event ? event : window.event;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var k = e.which ? e.which : e.keyCode;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if (Common.inArray(k, [37, 38, 39, 40])) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;return;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;} else if (k != 13) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;this.form.dptRsStnCd.value = '';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;setAutoComplete('#dptRsStnCd', '#dptRsStnCdNm');&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}.bind(this))(event)" autocomplete="off" title="출발역 입력" />
+							<a href="#none" onclick="selectMapInfo(this, 'dpt'); return false;" class="map" title="레이어 열기">지도열기</a>
+							<a href="#none" onclick="changeArvInfo(); return false;" class="chg">순서변경</a>
+							<input type="text" name="arvRsStnCdNm" id="arvRsStnCdNm" value="부산" class="input stn checkForm ui-autocomplete-input" maxlength="10" option="{isMust : true, message : '도착역을 입력하십시오.'}" onkeyup="(function () {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var e = event ? event : window.event;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var k = e.which ? e.which : e.keyCode;&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if (Common.inArray(k, [37, 38, 39, 40])) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;return;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;} else if (k != 13) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;this.form.arvRsStnCd.value = '';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;setAutoComplete('#arvRsStnCd', '#arvRsStnCdNm');&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}.bind(this))(event)" autocomplete="off" title="도착역 입력" />
+							<a href="#none" onclick="selectMapInfo(this, 'arv'); return false;" class="map" title="레이어 열기">지도열기</a>
+							<select name="dptDt" class="ymd checkForm" onchange="changeWeekInfo();" option="{isMust :false, message : '출발일자를 선택하십시오.'}" title="출발일자 선택">
+							
+								<option value="20181211" selected="selected">2018/12/11(화)</option>
+							
+								<option value="20181212">2018/12/12(수)</option>
+							
+								<option value="20181213">2018/12/13(목)</option>
+							
+								<option value="20181214">2018/12/14(금)</option>
+							
+								<option value="20181215">2018/12/15(토)</option>
+							
+								<option value="20181216">2018/12/16(일)</option>
+							
+								<option value="20181217">2018/12/17(월)</option>
+							
+								<option value="20181218">2018/12/18(화)</option>
+							
+								<option value="20181219">2018/12/19(수)</option>
+							
+								<option value="20181220">2018/12/20(목)</option>
+							
+								<option value="20181221">2018/12/21(금)</option>
+							
+								<option value="20181222">2018/12/22(토)</option>
+							
+								<option value="20181223">2018/12/23(일)</option>
+							
+								<option value="20181224">2018/12/24(월)</option>
+							
+								<option value="20181225">2018/12/25(화)</option>
+							
+								<option value="20181226">2018/12/26(수)</option>
+							
+								<option value="20181227">2018/12/27(목)</option>
+							
+								<option value="20181228">2018/12/28(금)</option>
+							
+								<option value="20181229">2018/12/29(토)</option>
+							
+								<option value="20181230">2018/12/30(일)</option>
+							
+								<option value="20181231">2018/12/31(월)</option>
+							
+								<option value="20190101">2019/01/01(화)</option>
+							
+								<option value="20190102">2019/01/02(수)</option>
+							
+								<option value="20190103">2019/01/03(목)</option>
+							
+								<option value="20190104">2019/01/04(금)</option>
+							
+								<option value="20190105">2019/01/05(토)</option>
+							
+								<option value="20190106">2019/01/06(일)</option>
+							
+								<option value="20190107">2019/01/07(월)</option>
+							
+								<option value="20190108">2019/01/08(화)</option>
+							
+								<option value="20190109">2019/01/09(수)</option>
+							
+								<option value="20190110">2019/01/10(목)</option>
+							
+								<option value="20190111">2019/01/11(금)</option>
+							
+							</select>
+							<select name="dptTm" class="date checkForm" option="{isMust : false, message : '출발시각을 선택하십시오.'}" title="출발시각 선택">
+							
+								<option value="000000">00</option>
+							
+								<option value="020000">02</option>
+							
+								<option value="040000">04</option>
+							
+								<option value="060000">06</option>
+							
+								<option value="080000">08</option>
+							
+								<option value="100000">10</option>
+							
+								<option value="120000">12</option>
+							
+								<option value="140000" selected="selected">14</option>
+							
+								<option value="160000">16</option>
+							
+								<option value="180000">18</option>
+							
+								<option value="200000">20</option>
+							
+								<option value="220000">22</option>
+							
+							</select> 시
+							 
+							<a href="#none" onclick="selectCalendarInfo(this); return false;" class="calendar" title="레이어 열기">달력</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>여정경로</dt>
+						<dd>
+							<input type="radio" name="chtnDvCd" id="chtnDvCd1" value="1" class="checkbox checkForm" option="{isMust : true, message : '여정경로를 선택하십시오.'}" checked="checked" /> <label for="chtnDvCd1">직통</label>
+							 
+							<input type="radio" name="chtnDvCd" id="chtnDvCd2" value="2" class="checkbox checkForm" option="{isMust : true, message : '여정경로를 선택하십시오.'}" /> <label for="chtnDvCd2">환승</label>
+							 
+							<input type="radio" name="chtnDvCd" id="chtnDvCd3" value="3" class="checkbox checkForm" onclick="(function () {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var o = $(this.form);&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if (!Navi.showLoading('왕복승차권 조회화면으로 이동하시겠습니까?')) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;Common.radio(this.form.chtnDvCd, 2, '1');&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;return;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;var srt = ['0514', '0036', '0507', '0037', '0010', '0015', '0552', '0041', '0020', '0551', '0508', '0297', '0509', '0030', '0033', '0553', '0502'];&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if (!Common.inArray(o.dptRsStnCd.value, srt)) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.dptRsStnCd.value = '0551';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.dptRsStnCdNm.value = '수서';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;if (!Common.inArray(o.arvRsStnCd.value, srt)) {&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.arvRsStnCd.value = '0020';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.arvRsStnCdNm.value = '부산';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}&#10;&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.isRequest.value = 'N';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.action = 'selectShuttleScheduleList.do?pageId=TK0101010000';&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;&#9;o.submit();&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#9;}.bind(this))(event)" option="{isMust : true, message : '여정경로를 선택하십시오.'}" /> <label for="chtnDvCd3">왕복</label>
+						</dd>
+					</dl>
+					<dl>
+						<dt>인원정보</dt>
+						<dd>
+							<select name="psgInfoPerPrnb1" class="prnb checkForm" option="{isMust : false, message : '어른 인원수를 선택하십시오.'}" title="어른 인원수 선택">
+								<option value="0">어른 0명</option>
+								<option value="1" selected="selected">어른 1명</option>
+								<option value="2">어른 2명</option>
+								<option value="3">어른 3명</option>
+								<option value="4">어른 4명</option>
+								<option value="5">어른 5명</option>
+								<option value="6">어른 6명</option>
+								<option value="7">어른 7명</option>
+								<option value="8">어른 8명</option>
+								<option value="9">어른 9명</option>
+							</select>
+							<select name="psgInfoPerPrnb5" class="prnb checkForm" option="{isMust : false, message : '만 4~12세 인원수를 선택하십시오.'}" title="만 4~12세 인원수 선택">
+								<option value="0">만 4~12세 0명</option>
+								<option value="1">만 4~12세 1명</option>
+								<option value="2">만 4~12세 2명</option>
+								<option value="3">만 4~12세 3명</option>
+								<option value="4">만 4~12세 4명</option>
+								<option value="5">만 4~12세 5명</option>
+								<option value="6">만 4~12세 6명</option>
+								<option value="7">만 4~12세 7명</option>
+								<option value="8">만 4~12세 8명</option>
+								<option value="9">만 4~12세 9명</option>
+							</select>
+							<select name="psgInfoPerPrnb4" class="prnb checkForm" option="{isMust : false, message : '만 65세 이상 인원수를 선택하십시오.'}" title="만 65세 이상 인원수 선택">
+								<option value="0">만 65세 이상 0명</option>
+								<option value="1">만 65세 이상 1명</option>
+								<option value="2">만 65세 이상 2명</option>
+								<option value="3">만 65세 이상 3명</option>
+								<option value="4">만 65세 이상 4명</option>
+								<option value="5">만 65세 이상 5명</option>
+								<option value="6">만 65세 이상 6명</option>
+								<option value="7">만 65세 이상 7명</option>
+								<option value="8">만 65세 이상 8명</option>
+								<option value="9">만 65세 이상 9명</option>
+							</select>
+						</dd>
+						<dd class="space">
+							<select name="psgInfoPerPrnb2" class="prnb checkForm" option="{isMust : false, message : '장애 1~3급 인원수를 선택하십시오.'}" title="장애 1~3급 인원수 선택">
+								<option value="0">장애 1~3급 0명</option>
+								<option value="1">장애 1~3급 1명</option>
+								<option value="2">장애 1~3급 2명</option>
+								<option value="3">장애 1~3급 3명</option>
+								<option value="4">장애 1~3급 4명</option>
+								<option value="5">장애 1~3급 5명</option>
+								<option value="6">장애 1~3급 6명</option>
+								<option value="7">장애 1~3급 7명</option>
+								<option value="8">장애 1~3급 8명</option>
+								<option value="9">장애 1~3급 9명</option>
+							</select>
+							<select name="psgInfoPerPrnb3" class="prnb checkForm" option="{isMust : false, message : '장애 4~6급 인원수를 선택하십시오.'}" title="장애 4~6급 인원수 선택">
+								<option value="0">장애 4~6급 0명</option>
+								<option value="1">장애 4~6급 1명</option>
+								<option value="2">장애 4~6급 2명</option>
+								<option value="3">장애 4~6급 3명</option>
+								<option value="4">장애 4~6급 4명</option>
+								<option value="5">장애 4~6급 5명</option>
+								<option value="6">장애 4~6급 6명</option>
+								<option value="7">장애 4~6급 7명</option>
+								<option value="8">장애 4~6급 8명</option>
+								<option value="9">장애 4~6급 9명</option>
+							</select>
+						</dd>
+					</dl>
+					<dl>
+						<dt>좌석종류</dt>
+						<dd>
+							<select name="locSeatAttCd1" class="prnb checkForm" option="{isMust : false, message : '좌석위치를 선택하십시오.'}" title="좌석위치 선택">
+								<option value="000" selected="selected">좌석위치</option>
+								<option value="011">1인석</option>
+								<option value="012">창측좌석</option>
+								<option value="013">내측좌석</option>
+							</select>
+							<select name="rqSeatAttCd1" class="prnb checkForm" option="{isMust : false, message : '좌석속성을 선택하십시오.'}" title="좌석속성 선택">
+								<option value="015">좌석속성</option>
+								<option value="015" selected="selected">일반</option>
+								<option value="021">휠체어</option>
+								<option value="028">전동휠체어</option>
+							</select>
+						</dd>
+					</dl>
+					<dl>
+						<dt>차종구분</dt>
+						<dd>
+							<input type="radio" name="trnGpCd" id="trnGpCd109" value="109" class="checkbox checkForm" option="{isMust : true, message : '차종구분을 선택하십시오.'}" checked="checked" /> <label for="trnGpCd109">전체</label>
+							 
+							<input type="radio" name="trnGpCd" id="trnGpCd300" value="300" class="checkbox checkForm" option="{isMust : true, message : '차종구분을 선택하십시오.'}" /> <label for="trnGpCd300">SRT</label>
+							 
+							<input type="radio" name="trnGpCd" id="trnGpCd900" value="900" class="checkbox checkForm" option="{isMust : true, message : '차종구분을 선택하십시오.'}" /> <label for="trnGpCd900">SRT + KTX</label>
+						</dd>
+					</dl>
+				</div>
+				<div class="button">
+					<input type="submit" value="조회하기" />
+				</div>
+			</fieldset>
+		</form>
+	</div>
+
+</div>
+
+
+<style type="text/css">
+	.ui-widget.ui-widget-content {border-top-style:none;}
+</style>
+<script type="text/javascript">
+//&lt;![CDATA[
+	var CRS_WIN_NM_KR = 'crossKrPop'; 
+	var CRS_WIN_NM_SR = 'crossSrPop'; 
+
+	function callback(data) { 
+		switch (data.mode) {
+			case '1' : // 좌석선택 시 잔여석 없음
+				g_IFrame.afterClose = null;
+				clearReservationInfo();
+				break;
+		}
+	}
+
+	function selectConvInfo() { 
+		Common.openWin(MAIN_CONTEXT_PATH + '/cms/archive.do?pageId=TK0401030100', 'selectConvInfo', 900, 530, 'yes');
+	}
+
+	function selectMapInfo(obj, target) { 
+		var other = '';
+		var srt = ['0514', '0036', '0507', '0037', '0010', '0015', '0552', '0041', '0020', '0551', '0508', '0297', '0509', '0030', '0033', '0553', '0502'];
+
+		if (!Common.inArray($$('input[name="dptRsStnCd"]')[0].value, srt) || !Common.inArray($$('input[name="arvRsStnCd"]')[0].value, srt)) {
+			other = 'KORAIL';
+		}
+
+		(new IFrame(520, 733, 'selectMapInfo.do?isAll=Y&amp;other=' + other + '&amp;target=' + target + '&amp;pageId=TK0101010000', cfg.contextPath, 'N')).open((function () {
+			try { $(obj).focus(); } catch (e) {}
+		}));
+	}
+
+	function selectCalendarInfo(obj) { 
+		(new IFrame(600, 390, 'selectCalendarInfo.do?pageId=TK0101010000', cfg.contextPath, 'N')).open((function () {
+			try { $(obj).focus(); } catch (e) {}
+		}));
+	}
+
+	function changeArvInfo() { 
+		var o = $('search-form');
+		var c = {dptRsStnCd : o.dptRsStnCd.value, dptRsStnCdNm : o.dptRsStnCdNm.value, arvRsStnCd : o.arvRsStnCd.value, arvRsStnCdNm : o.arvRsStnCdNm.value};
+
+		o.dptRsStnCd.value   = c.arvRsStnCd;
+		o.dptRsStnCdNm.value = c.arvRsStnCdNm;
+		o.arvRsStnCd.value   = c.dptRsStnCd;
+		o.arvRsStnCdNm.value = c.dptRsStnCdNm;
+
+		if ($('search-list')) {
+			$('search-list').remove();
+		}
+	}
+
+	function changeWeekInfo() { 
+		var o = $('search-form');
+		var y = o.dptDt.options[o.dptDt.selectedIndex].value.substr(0, 4);
+		var m = o.dptDt.options[o.dptDt.selectedIndex].value.substr(4, 2);
+		var d = o.dptDt.options[o.dptDt.selectedIndex].value.substr(6, 2);
+
+		$$('select[name=dptTm]')[0].selectedIndex = 0;
+
+		if (Common.ymd() == o.dptDt.options[o.dptDt.selectedIndex].value) {
+			if ((new Date()).getHours() % 2 == 1) {
+				$$('select[name=dptTm]')[0].value = ((new Date()).getHours() - 1 &lt; 10 ? '0' : '') + ((new Date()).getHours() - 1) + '0000';
+				return;
+			}
+
+			$$('select[name=dptTm]')[0].value = ((new Date()).getHours() &lt; 10 ? '0' : '') + (new Date()).getHours() + '0000';
+		}
+	}
+
+	function checkScheduleInfo(showLoading, isMove) { 
+		var o = $('search-form');
+		var e = Common.checkForm(o);
+
+		if (e != '') {
+			window.alert(e);
+			return false;
+		} else if (parseInt(Common.ymd()) &gt; parseInt(o.dptDt.options[o.dptDt.selectedIndex].value)) {
+			window.alert('오늘보다 이전 일자를 선택하셨습니다.');
+			return false;
+		} else if (Navi.isLoading()) {
+			return false;
+		}
+
+		//-- 출발역 또는 도착역 코드가 없을 때
+		if (o.dptRsStnCd.value == '') {
+			if (!selectStnCdInfo('dptRsStnCd', 'dptRsStnCdNm')) {
+				window.alert('출발역을 확인하십시오.');
+				o.dptRsStnCdNm.focus();
+				return false;
+			}
+		}
+
+		if (o.arvRsStnCd.value == '') {
+			if (!selectStnCdInfo('arvRsStnCd', 'arvRsStnCdNm')) {
+				window.alert('도착역을 확인하십시오.');
+				o.arvRsStnCdNm.focus();
+				return false;
+			}
+		}
+		//--
+
+		if (o.dptRsStnCd.value == o.arvRsStnCd.value) {
+			window.alert('출발역과 도착역이 동일합니다.');
+			return false;
+		}
+
+		if (showLoading &amp;&amp; !isMove &amp;&amp; Common.ymd() == o.dptDt.options[o.dptDt.selectedIndex].value &amp;&amp; (new Date()).getHours() &gt;= parseInt(o.dptTm.options[o.dptTm.selectedIndex].value.substr(0, 2), 10)) {
+			o.dptTm.options[o.dptTm.options.length] = new Option(((new Date()).getHours() &lt; 10 ? '0' : '') + (new Date()).getHours(), ((new Date()).getHours() &lt; 10 ? '0' : '') + (new Date()).getHours() + ((new Date()).getMinutes() &lt; 10 ? '0' : '') + (new Date()).getMinutes() + '00');
+			o.dptTm.selectedIndex = o.dptTm.options.length - 1;
+		}
+
+		o.stlbTrnClsfCd.value = (Common.radio(o.trnGpCd, 1) == '900') ? '00' : '05';
+		o.seatAttCd.value = o.rqSeatAttCd1.options[o.rqSeatAttCd1.selectedIndex].value;
+		o.psgNum.value = parseInt(o.psgInfoPerPrnb1.options[o.psgInfoPerPrnb1.selectedIndex].value)
+				+ parseInt(o.psgInfoPerPrnb2.options[o.psgInfoPerPrnb2.selectedIndex].value)
+				+ parseInt(o.psgInfoPerPrnb3.options[o.psgInfoPerPrnb3.selectedIndex].value)
+				+ parseInt(o.psgInfoPerPrnb4.options[o.psgInfoPerPrnb4.selectedIndex].value)
+				+ parseInt(o.psgInfoPerPrnb5.options[o.psgInfoPerPrnb5.selectedIndex].value);
+
+		if (parseInt(o.psgNum.value) &lt;= 0) {
+			window.alert('승객 인원을 1명 이상 선택하십시오.');
+			return false;
+		} else if (parseInt(o.psgNum.value) &gt; 9) {
+			window.alert('승객 인원은 9명까지 가능합니다.');
+			return false;
+		}
+
+		if (showLoading) {
+			Navi.showLoading('', true); // 넷퍼넬을 사용하지 않을 경우 Navi.showLoading()으로 변경
+		}
+
+		return true;
+	}
+
+	function selectTrainScheduleList(trnNo, runDt) { 
+		Common.openWin('selectTrainScheduleList.do?pageId=TK0101010000&amp;trnNo=' + trnNo + '&amp;runDt=' + runDt, 'selectTrainScheduleList', 500, 414, 'yes');
+	}
+
+	function selectTrainChargeList(index, chtnDvCd) { 
+		
+		var o = $('charge-form');
+
+		o.getElementsBySelector('input[type=hidden]').findAll(function (s) {
+			if (s.getAttribute('name').indexOf('psgInfoPerPrnb') == 0) {
+				return;
+			}
+
+			s.value = '';
+		}.bind(this));
+
+		o.chtnDvCd.value = chtnDvCd;
+		o.dptRsStnCd1.value    = $$('input[name="dptRsStnCd['    + index + ']"]')[0].value;
+		o.arvRsStnCd1.value    = $$('input[name="arvRsStnCd['    + index + ']"]')[0].value;
+		o.runDt1.value         = $$('input[name="runDt['         + index + ']"]')[0].value;
+		o.trnNo1.value         = $$('input[name="trnNo['         + index + ']"]')[0].value;
+		o.stlbTrnClsfCd1.value = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+
+		if (chtnDvCd == '2') {
+			o.dptRsStnCd2.value    = $$('input[name="dptRsStnCd['    + (index + 1) + ']"]')[0].value;
+			o.arvRsStnCd2.value    = $$('input[name="arvRsStnCd['    + (index + 1) + ']"]')[0].value;
+			o.runDt2.value         = $$('input[name="runDt['         + (index + 1) + ']"]')[0].value;
+			o.trnNo2.value         = $$('input[name="trnNo['         + (index + 1) + ']"]')[0].value;
+			o.stlbTrnClsfCd2.value = $$('input[name="stlbTrnClsfCd[' + (index + 1) + ']"]')[0].value;
+		}
+
+		
+		var query = '';
+
+		o.getElementsBySelector('input').findAll(function (s) {
+			query += ('&amp;' + s.name + '=' + encodeURIComponentEx(s.value));
+		}.bind(this));
+
+		Common.openWin(o.action + query, 'selectTrainChargeList', 610, (chtnDvCd == '2') ? 493 : 439, 'yes');
+	}
+
+	function changeDptTm(dir, dptTm) { 
+		var o = $('search-form');
+
+		switch (dir) {
+			case 'PREV' :
+				o.getElementsBySelector('input[name=prvTms]').findAll(function (s) {
+					if (s.value == dptTm) {
+						s.remove();
+					}
+				}.bind(this));
+
+				break;
+			case 'NEXT' :
+				o.getElementsBySelector('fieldset')[0].insert('&lt;input type="hidden" name="prvTms" value="140000" /&gt;');
+				break;
+		}
+
+		o.dptTm.options[o.dptTm.options.length] = new Option(dptTm.substr(0, 2), dptTm);
+		o.dptTm.selectedIndex = o.dptTm.options.length - 1;
+
+		if (!checkScheduleInfo(true, true)) {
+			return;
+		}
+
+		NetFunnel_Action({}, function() {
+			o.submit();
+		}.bind(this));
+	}
+
+	function changeDtpDt(dptDt) { 
+		var o = $('search-form');
+
+		o.dptDt.value = dptDt;
+		o.dptTm.selectedIndex = 0;
+
+		o.getElementsBySelector('input[name=prvTms]').findAll(function (s) {
+			s.remove();
+		}.bind(this));
+
+		if (!checkScheduleInfo(true)) {
+			return;
+		}
+
+		NetFunnel_Action({}, function() {
+			o.submit();
+		}.bind(this));
+	}
+
+	function selectPassengerResearchList(element, index, psrmClCd) { 
+		if (!cfg.isLogin) {
+			var source = $('search-form');
+
+			if (confirm('좌석선택은 로그인 후 이용이 가능합니다.\n\n로그인 페이지로 이동하시겠습니까?')) {
+				var query = '&amp;chtnDvCd=' + Common.radio(source.chtnDvCd, 1) + '&amp;trnGpCd=' + Common.radio(source.trnGpCd, 1);
+
+				source.getElementsBySelector('input[type=hidden],select').findAll(function (s) {
+					if (s.name.indexOf('dptTm') == 0 &amp;&amp; Common.ymd() == source.dptDt.options[source.dptDt.selectedIndex].value &amp;&amp; (new Date()).getHours() &gt;= parseInt(s.value.substr(0, 2), 10)) {
+						query += ('&amp;' + s.name + '=' + encodeURIComponentEx(((new Date()).getHours() &lt; 10 ? '0' : '') + (new Date()).getHours() + ((new Date()).getMinutes() &lt; 10 ? '0' : '') + (new Date()).getMinutes() + '00'));
+						return;
+					}
+
+					query += ('&amp;' + s.name + '=' + encodeURIComponentEx(s.value));
+				}.bind(this));
+
+				location.href = cfg.contextPath + '/cmc/01/selectLoginForm.do?pageId=TK0701000000&amp;goUrl=' + encodeURIComponentEx(location.pathname + location.search + query);
+			}
+
+			return;
+		} else if (!checkScheduleInfo(false)) {
+			return;
+		}
+
+		var source = $('search-form');
+		var target = $('insert-form');
+
+		// 직통/환승 처리
+		var chtnDvCd = Common.radio(source.chtnDvCd, 1);
+
+		if (chtnDvCd == '2') {
+			var stlbTrnClsfCd1, stlbTrnClsfCd2;
+
+			switch ($$('input[name="jrnySqno[' + index + ']"]')[0].value) {
+				case '001' :
+					stlbTrnClsfCd1 = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+					stlbTrnClsfCd2 = $$('input[name="stlbTrnClsfCd[' + (index + 1) + ']"]')[0].value;
+					break;
+				case '002' :
+					stlbTrnClsfCd1 = $$('input[name="stlbTrnClsfCd[' + (index - 1) + ']"]')[0].value;
+					stlbTrnClsfCd2 = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+					break;
+			}
+
+			if ((stlbTrnClsfCd1 == '17' &amp;&amp; stlbTrnClsfCd1 != stlbTrnClsfCd2) || (stlbTrnClsfCd2 == '17' &amp;&amp; stlbTrnClsfCd1 != stlbTrnClsfCd2)) {
+				chtnDvCd = '3';
+			}
+		}
+
+		switch (chtnDvCd) {
+			case '1' : // 직통
+			case '3' : // 사업자간 환승
+				if (chtnDvCd == '3' &amp;&amp; !confirm('선택하신 열차는 SRT와 코레일 열차를 같이 이용하는 연결정보입니다.\n\n예약 및 발권이 완료된 후 [코레일 열차예약] 버튼을 클릭하여 코레일 사이트로 이동하신 후 연결구간 예약을 진행하십시오.')) {
+					clearReservationInfo();
+					return;
+				} else if ('N' != 'Y' &amp;&amp; chtnDvCd == '1' &amp;&amp; parseFloat($$('input[name="trainDiscGenRt[' + index + ']"]')[0].value) &gt; 1.0 &amp;&amp; !confirm('1. 해당 할인상품의 취소수수료는 (2017년 조기예매할인 상품과 달리) 일반승차권 반환규정을 적용합니다.\n\n'
+						+ '2. 일정 변경은 SRT앱, 홈페이지, 역에서 취소한 후 다시 구매하셔야 합니다.(※ 이 경우 할인율이 변동될 수 있습니다.)\n\n'
+						+ '3. 특실은 운임만 할인됩니다.\n\n'
+						+ '4. 위 내용을 확인하였으며 동의합니다.')) {
+					clearReservationInfo();
+					return;
+				}
+
+				target.trnOrdrNo1.value = $$('input[name="trnOrdrNo[' + index + ']"]')[0].value;
+				target.scarYn1.value    = 'Y';
+				target.psrmClCd1.value  = psrmClCd;
+
+				if (!$(element).hasClassName('on')) {
+					$(element).addClassName('on');
+				}
+
+				(new IFrame(900, 669, 'selectPassengerResearchList.do'
+						+ '?runDt1='         + $$('input[name="runDt[' + index + ']"]')[0].value
+						+ '&amp;dptDt1='         + $$('input[name="dptDt[' + index + ']"]')[0].value
+						+ '&amp;dptTm1='         + $$('input[name="dptTm[' + index + ']"]')[0].value
+						+ '&amp;trnNo1='         + $$('input[name="trnNo[' + index + ']"]')[0].value
+						+ '&amp;trnGpCd1='       + $$('input[name="trnGpCd[' + index + ']"]')[0].value
+						+ '&amp;dptRsStnCd1='    + $$('input[name="dptRsStnCd[' + index + ']"]')[0].value
+						+ '&amp;arvRsStnCd1='    + $$('input[name="arvRsStnCd[' + index + ']"]')[0].value
+						+ '&amp;dptStnRunOrdr1=' + $$('input[name="dptStnRunOrdr[' + index + ']"]')[0].value
+						+ '&amp;arvStnRunOrdr1=' + $$('input[name="arvStnRunOrdr[' + index + ']"]')[0].value
+						+ '&amp;seatAttCd1='     + $$('input[name="seatAttCd[' + index + ']"]')[0].value
+						+ '&amp;psrmClCd1='      + psrmClCd
+						+ '&amp;index1='         + index
+						+ '&amp;scarNo1='        + ''
+						+ '&amp;chtnDvCd=1&amp;jrnySqno=001&amp;mode=1&amp;psgNum=&amp;pageId=TK0101010000', cfg.contextPath, 'N')).open((function () { checkReservationInfo(); }));
+				break;
+			case '2' : // 환승
+				switch ($$('input[name="jrnySqno[' + index + ']"]')[0].value) {
+					case '001' : // 선행
+						if (target.trnOrdrNo1.value != '' &amp;&amp; target.trnOrdrNo1.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('이미 선택하신 선행 열차가 존재합니다.');
+							return;
+						} else if (target.trnOrdrNo1.value != '' &amp;&amp; target.psrmClCd1.value != psrmClCd) {
+							window.alert('해당 열차의 다른 객실을 선택하셨습니다.');
+							return;
+						} else if (target.trnOrdrNo2.value != '' &amp;&amp; target.trnOrdrNo2.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('선택하신 열차는 환승 대상 열차가 아닙니다.');
+							return;
+						} else if (target.scarYn1.value == 'N') {
+							window.alert('이미 선택하신 선행 열차가 존재합니다.');
+							return;
+						} else if (target.scarYn2.value == 'N') {
+							window.alert('좌석선택예약은 선/후행 모두 좌석을 선택하셔야 합니다.');
+							return;
+						} else if ('N' != 'Y' &amp;&amp; !$(element).hasClassName('on') &amp;&amp; parseFloat($$('input[name="trainDiscGenRt[' + index + ']"]')[0].value) &gt; 1.0 &amp;&amp; !confirm('1. 해당 할인상품의 취소수수료는 (2017년 조기예매할인 상품과 달리) 일반승차권 반환규정을 적용합니다.\n\n'
+								+ '2. 일정 변경은 SRT앱, 홈페이지, 역에서 취소한 후 다시 구매하셔야 합니다.(※ 이 경우 할인율이 변동될 수 있습니다.)\n\n'
+								+ '3. 특실은 운임만 할인됩니다.\n\n'
+								+ '4. 위 내용을 확인하였으며 동의합니다.')) {
+							return;
+						}
+
+						target.trnOrdrNo1.value = $(element).hasClassName('on') ? '' : $$('input[name="trnOrdrNo[' + index + ']"]')[0].value;
+						target.scarYn1.value    = $(element).hasClassName('on') ? '' : 'Y';
+						target.psrmClCd1.value  = $(element).hasClassName('on') ? '' : psrmClCd;
+						break;
+					case '002' : // 후행
+						if (target.trnOrdrNo2.value != '' &amp;&amp; target.trnOrdrNo2.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('이미 선택하신 후행 열차가 존재합니다.');
+							return;
+						} else if (target.trnOrdrNo2.value != '' &amp;&amp; target.psrmClCd2.value != psrmClCd) {
+							window.alert('해당 열차의 다른 객실을 선택하셨습니다.');
+							return;
+						} else if (target.trnOrdrNo1.value != '' &amp;&amp; target.trnOrdrNo1.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('선택하신 열차는 환승 대상 열차가 아닙니다.');
+							return;
+						} else if (target.scarYn2.value == 'N') {
+							window.alert('이미 선택하신 후행 열차가 존재합니다.');
+							return;
+						} else if (target.scarYn1.value == 'N') {
+							window.alert('좌석선택예약은 선/후행 모두 좌석을 선택하셔야 합니다.');
+							return;
+						} else if ('N' != 'Y' &amp;&amp; !$(element).hasClassName('on') &amp;&amp; parseFloat($$('input[name="trainDiscGenRt[' + index + ']"]')[0].value) &gt; 1.0 &amp;&amp; !confirm('1. 해당 할인상품의 취소수수료는 (2017년 조기예매할인 상품과 달리) 일반승차권 반환규정을 적용합니다.\n\n'
+								+ '2. 일정 변경은 SRT앱, 홈페이지, 역에서 취소한 후 다시 구매하셔야 합니다.(※ 이 경우 할인율이 변동될 수 있습니다.)\n\n'
+								+ '3. 특실은 운임만 할인됩니다.\n\n'
+								+ '4. 위 내용을 확인하였으며 동의합니다.')) {
+							return;
+						}
+
+						target.trnOrdrNo2.value = $(element).hasClassName('on') ? '' : $$('input[name="trnOrdrNo[' + index + ']"]')[0].value;
+						target.scarYn2.value    = $(element).hasClassName('on') ? '' : 'Y';
+						target.psrmClCd2.value  = $(element).hasClassName('on') ? '' : psrmClCd;
+						break;
+				}
+
+				if ($(element).hasClassName('on')) {
+					$(element).removeClassName('on');
+					$(element).update('좌석선택');
+				} else {
+					$(element).addClassName('on');
+					$(element).update('선택대기');
+				}
+
+				if (target.trnOrdrNo1.value == '' || target.trnOrdrNo2.value == '') { // 최초 선택
+					return;
+				}
+
+				switch ($$('input[name="jrnySqno[' + index + ']"]')[0].value) {
+					case '001' : // 선행
+						(new IFrame(900, 669, 'selectPassengerResearchList.do'
+								+ '?runDt1='         + $$('input[name="runDt[' + index + ']"]')[0].value
+								+ '&amp;dptDt1='         + $$('input[name="dptDt[' + index + ']"]')[0].value
+								+ '&amp;dptTm1='         + $$('input[name="dptTm[' + index + ']"]')[0].value
+								+ '&amp;trnNo1='         + $$('input[name="trnNo[' + index + ']"]')[0].value
+								+ '&amp;trnGpCd1='       + $$('input[name="trnGpCd[' + index + ']"]')[0].value
+								+ '&amp;dptRsStnCd1='    + $$('input[name="dptRsStnCd[' + index + ']"]')[0].value
+								+ '&amp;arvRsStnCd1='    + $$('input[name="arvRsStnCd[' + index + ']"]')[0].value
+								+ '&amp;dptStnRunOrdr1=' + $$('input[name="dptStnRunOrdr[' + index + ']"]')[0].value
+								+ '&amp;arvStnRunOrdr1=' + $$('input[name="arvStnRunOrdr[' + index + ']"]')[0].value
+								+ '&amp;seatAttCd1='     + $$('input[name="seatAttCd[' + index + ']"]')[0].value
+								+ '&amp;psrmClCd1='      + psrmClCd
+								+ '&amp;index1='         + index
+								+ '&amp;scarNo1='        + ''
+								+ '&amp;runDt2='         + $$('input[name="runDt[' + (index + 1) + ']"]')[0].value
+								+ '&amp;dptDt2='         + $$('input[name="dptDt[' + (index + 1) + ']"]')[0].value
+								+ '&amp;dptTm2='         + $$('input[name="dptTm[' + (index + 1) + ']"]')[0].value
+								+ '&amp;trnNo2='         + $$('input[name="trnNo[' + (index + 1) + ']"]')[0].value
+								+ '&amp;trnGpCd2='       + $$('input[name="trnGpCd[' + (index + 1) + ']"]')[0].value
+								+ '&amp;dptRsStnCd2='    + $$('input[name="dptRsStnCd[' + (index + 1) + ']"]')[0].value
+								+ '&amp;arvRsStnCd2='    + $$('input[name="arvRsStnCd[' + (index + 1) + ']"]')[0].value
+								+ '&amp;dptStnRunOrdr2=' + $$('input[name="dptStnRunOrdr[' + (index + 1) + ']"]')[0].value
+								+ '&amp;arvStnRunOrdr2=' + $$('input[name="arvStnRunOrdr[' + (index + 1) + ']"]')[0].value
+								+ '&amp;seatAttCd2='     + $$('input[name="seatAttCd[' + (index + 1) + ']"]')[0].value
+								+ '&amp;psrmClCd2='      + target.psrmClCd2.value
+								+ '&amp;index2='         + (index + 1)
+								+ '&amp;scarNo2='        + ''
+								+ '&amp;chtnDvCd='       + Common.radio(source.chtnDvCd, 1)
+								+ '&amp;jrnySqno=001&amp;mode=1&amp;psgNum=&amp;pageId=TK0101010000', cfg.contextPath, 'N')).open((function () { checkReservationInfo(); }));
+						break;
+					case '002' : // 후행
+						(new IFrame(900, 669, 'selectPassengerResearchList.do'
+								+ '?runDt1='         + $$('input[name="runDt[' + (index - 1) + ']"]')[0].value
+								+ '&amp;dptDt1='         + $$('input[name="dptDt[' + (index - 1) + ']"]')[0].value
+								+ '&amp;dptTm1='         + $$('input[name="dptTm[' + (index - 1) + ']"]')[0].value
+								+ '&amp;trnNo1='         + $$('input[name="trnNo[' + (index - 1) + ']"]')[0].value
+								+ '&amp;trnGpCd1='       + $$('input[name="trnGpCd[' + (index - 1) + ']"]')[0].value
+								+ '&amp;dptRsStnCd1='    + $$('input[name="dptRsStnCd[' + (index - 1) + ']"]')[0].value
+								+ '&amp;arvRsStnCd1='    + $$('input[name="arvRsStnCd[' + (index - 1) + ']"]')[0].value
+								+ '&amp;dptStnRunOrdr1=' + $$('input[name="dptStnRunOrdr[' + (index - 1) + ']"]')[0].value
+								+ '&amp;arvStnRunOrdr1=' + $$('input[name="arvStnRunOrdr[' + (index - 1) + ']"]')[0].value
+								+ '&amp;seatAttCd1='     + $$('input[name="seatAttCd[' + (index - 1) + ']"]')[0].value
+								+ '&amp;psrmClCd1='      + target.psrmClCd1.value
+								+ '&amp;index1='         + (index - 1)
+								+ '&amp;scarNo1='        + ''
+								+ '&amp;runDt2='         + $$('input[name="runDt[' + index + ']"]')[0].value
+								+ '&amp;dptDt2='         + $$('input[name="dptDt[' + index + ']"]')[0].value
+								+ '&amp;dptTm2='         + $$('input[name="dptTm[' + index + ']"]')[0].value
+								+ '&amp;trnNo2='         + $$('input[name="trnNo[' + index + ']"]')[0].value
+								+ '&amp;trnGpCd2='       + $$('input[name="trnGpCd[' + index + ']"]')[0].value
+								+ '&amp;dptRsStnCd2='    + $$('input[name="dptRsStnCd[' + index + ']"]')[0].value
+								+ '&amp;arvRsStnCd2='    + $$('input[name="arvRsStnCd[' + index + ']"]')[0].value
+								+ '&amp;dptStnRunOrdr2=' + $$('input[name="dptStnRunOrdr[' + index + ']"]')[0].value
+								+ '&amp;arvStnRunOrdr2=' + $$('input[name="arvStnRunOrdr[' + index + ']"]')[0].value
+								+ '&amp;seatAttCd2='     + $$('input[name="seatAttCd[' + index + ']"]')[0].value
+								+ '&amp;psrmClCd2='      + psrmClCd
+								+ '&amp;index2='         + index
+								+ '&amp;scarNo2='        + ''
+								+ '&amp;chtnDvCd='       + Common.radio(source.chtnDvCd, 1)
+								+ '&amp;jrnySqno=001&amp;mode=1&amp;psgNum=&amp;pageId=TK0101010000', cfg.contextPath, 'N')).open((function () { checkReservationInfo(); }));
+						break;
+				}
+
+				break;
+		}
+	}
+
+	function checkReservationInfo() { 
+		var o = $('insert-form');
+
+		if (o.crossYn.value == 'Y') {
+			return;
+		}
+
+		switch ('1') {
+			case '1' : // 직통
+				if (o.scarNo1.value == '') {
+					window.alert('선택좌석 예약하기를 진행하지 않으셨습니다.\n\n선택하신 좌석정보를 초기화합니다.');
+					clearReservationInfo();
+				}
+
+				break;
+			case '2' : // 환승
+				if (o.scarNo1.value == '' || o.scarNo2.value == '') {
+					window.alert('선택좌석 예약하기를 진행하지 않으셨습니다.\n\n선택하신 좌석정보를 초기화합니다.');
+					clearReservationInfo();
+				}
+
+				break;
+		}
+	}
+
+	function clearReservationInfo() { 
+		$('insert-form').getElementsBySelector('input[type=hidden]').findAll(function (s) {
+			s.value = '';
+		}.bind(this));
+
+		$('search-list').getElementsBySelector('.button.on').findAll(function (s) {
+			s.removeClassName('on');
+			s.update('좌석선택');
+		}.bind(this));
+	}
+
+	function requestReservationInfo(element, index, psrmClCd, jobId, isLast, isCfrm) { 
+		if (!checkScheduleInfo(false)) {
+			return;
+		}
+
+		var source = $('search-form');
+		var target = $('insert-form');
+
+		if (!isCfrm) {
+			switch (source.rqSeatAttCd1.options[source.rqSeatAttCd1.selectedIndex].value) {
+				case '021' : // 휠체어
+				case '028' : // 전동휠체어
+					if (!confirm('장애인 또는 유공자 등 휠체어 이용자에 한하여 이용하실 수 있습니다.\n정당한 이용자가 아닌 고객의 경우 부가운임을 징수합니다.\n\n예약을 진행하시겠습니까?')) {
+						clearReservationInfo();
+						return;
+					}
+
+					break;
+			}
+		}
+
+		target.rsvTpCd.value     = '01';
+		target.jobId.value       = jobId;
+		target.totPrnb.value     = source.psgNum.value;
+		target.stndFlg.value     = 'N';
+		target.psgGridcnt.value  = '0';
+		target.mutMrkVrfCd.value = (window.name == CRS_WIN_NM_SR) ? '' : '';
+		target.reqTime.value     = (new Date()).getTime();
+
+		// 승객유형
+		var psgGridcnt = 1;
+
+		source.getElementsBySelector('select').findAll(function (s, i) {
+			if (s.getAttribute('name').indexOf('psgInfoPerPrnb') &lt; 0) {
+				return;
+			}
+
+			if (s.selectedIndex &gt; 0) {
+				$$('input[name=psgTpCd' + psgGridcnt + ']')[0].value = s.getAttribute('name').substr(s.getAttribute('name').length - 1, 1);
+				$$('input[name=psgInfoPerPrnb' + psgGridcnt + ']')[0].value = s.options[s.selectedIndex].value;
+
+				target.psgGridcnt.value = parseInt(target.psgGridcnt.value) + 1;
+				psgGridcnt++;
+			}
+		}.bind(this));
+
+		// 열차정보
+		var isPass = jobId != '1103';
+
+		// 직통/환승 처리
+		var chtnDvCd = Common.radio(source.chtnDvCd, 1);
+
+		if (chtnDvCd == '2') {
+			var stlbTrnClsfCd1, stlbTrnClsfCd2;
+
+			switch ($$('input[name="jrnySqno[' + index + ']"]')[0].value) {
+				case '001' :
+					stlbTrnClsfCd1 = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+					stlbTrnClsfCd2 = $$('input[name="stlbTrnClsfCd[' + (index + 1) + ']"]')[0].value;
+					break;
+				case '002' :
+					stlbTrnClsfCd1 = $$('input[name="stlbTrnClsfCd[' + (index - 1) + ']"]')[0].value;
+					stlbTrnClsfCd2 = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+					break;
+			}
+
+			if ((stlbTrnClsfCd1 == '17' &amp;&amp; stlbTrnClsfCd1 != stlbTrnClsfCd2) || (stlbTrnClsfCd2 == '17' &amp;&amp; stlbTrnClsfCd1 != stlbTrnClsfCd2)) {
+				chtnDvCd = '3';
+			}
+		}
+
+		switch (chtnDvCd) {
+			case '1' : // 직통
+			case '3' : // 사업자간 환승
+				if (!isCfrm) {
+					if (chtnDvCd == '3' &amp;&amp; !confirm('선택하신 열차는 SRT와 코레일 열차를 같이 이용하는 연결정보입니다.\n\n예약 및 발권이 완료된 후 [코레일 열차예약] 버튼을 클릭하여 코레일 사이트로 이동하신 후 연결구간 예약을 진행하십시오.')) {
+						clearReservationInfo();
+						return;
+					} else if ('N' != 'Y' &amp;&amp; chtnDvCd == '1' &amp;&amp; parseFloat($$('input[name="trainDiscGenRt[' + index + ']"]')[0].value) &gt; 1.0 &amp;&amp; !confirm('1. 해당 할인상품의 취소수수료는 (2017년 조기예매할인 상품과 달리) 일반승차권 반환규정을 적용합니다.\n\n'
+							+ '2. 일정 변경은 SRT앱, 홈페이지, 역에서 취소한 후 다시 구매하셔야 합니다.(※ 이 경우 할인율이 변동될 수 있습니다.)\n\n'
+							+ '3. 특실은 운임만 할인됩니다.\n\n'
+							+ '4. 위 내용을 확인하였으며 동의합니다.')) {
+						clearReservationInfo();
+						return;
+					}
+				}
+
+				target.jrnyTpCd.value        = '11';
+				target.jrnyCnt.value         = '1';
+				target.trnOrdrNo1.value      = $$('input[name="trnOrdrNo[' + index + ']"]')[0].value;
+				target.jrnySqno1.value       = '001';
+				target.runDt1.value          = $$('input[name="runDt[' + index + ']"]')[0].value;
+				target.trnNo1.value          = $$('input[name="trnNo[' + index + ']"]')[0].value;
+				target.trnGpCd1.value        = $$('input[name="trnGpCd[' + index + ']"]')[0].value;
+				target.stlbTrnClsfCd1.value  = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+				target.dptDt1.value          = $$('input[name="dptDt[' + index + ']"]')[0].value;
+				target.dptTm1.value          = $$('input[name="dptTm[' + index + ']"]')[0].value;
+				target.dptRsStnCd1.value     = $$('input[name="dptRsStnCd[' + index + ']"]')[0].value;
+				target.dptStnConsOrdr1.value = $$('input[name="dptStnConsOrdr[' + index + ']"]')[0].value;
+				target.dptStnRunOrdr1.value  = $$('input[name="dptStnRunOrdr[' + index + ']"]')[0].value;
+				target.arvRsStnCd1.value     = $$('input[name="arvRsStnCd[' + index + ']"]')[0].value;
+				target.arvStnConsOrdr1.value = $$('input[name="arvStnConsOrdr[' + index + ']"]')[0].value;
+				target.arvStnRunOrdr1.value  = $$('input[name="arvStnRunOrdr[' + index + ']"]')[0].value;
+				target.scarYn1.value         = isPass ? 'N' : 'Y';
+				target.scarGridcnt1.value    = isPass ? '' : $$('input[name="scarGridcnt[' + index + ']"]')[0].value;
+				target.scarNo1.value         = isPass ? '' : $$('input[name="scarNo[' + index + ']"]')[0].value;
+				target.seatNo1_1.value       = isPass ? '' : $$('input[name="seatNo_1[' + index + ']"]')[0].value;
+				target.seatNo1_2.value       = isPass ? '' : $$('input[name="seatNo_2[' + index + ']"]')[0].value;
+				target.seatNo1_3.value       = isPass ? '' : $$('input[name="seatNo_3[' + index + ']"]')[0].value;
+				target.seatNo1_4.value       = isPass ? '' : $$('input[name="seatNo_4[' + index + ']"]')[0].value;
+				target.seatNo1_5.value       = isPass ? '' : $$('input[name="seatNo_5[' + index + ']"]')[0].value;
+				target.seatNo1_6.value       = isPass ? '' : $$('input[name="seatNo_6[' + index + ']"]')[0].value;
+				target.seatNo1_7.value       = isPass ? '' : $$('input[name="seatNo_7[' + index + ']"]')[0].value;
+				target.seatNo1_8.value       = isPass ? '' : $$('input[name="seatNo_8[' + index + ']"]')[0].value;
+				target.seatNo1_9.value       = isPass ? '' : $$('input[name="seatNo_9[' + index + ']"]')[0].value;
+				target.psrmClCd1.value       = psrmClCd;
+				target.smkSeatAttCd1.value   = '000';
+				target.dirSeatAttCd1.value   = '000';
+				target.locSeatAttCd1.value   = source.locSeatAttCd1.options[source.locSeatAttCd1.selectedIndex].value;
+				target.rqSeatAttCd1.value    = source.rqSeatAttCd1.options[source.rqSeatAttCd1.selectedIndex].value;
+				target.etcSeatAttCd1.value   = '000';
+				target.crossYn.value         = (chtnDvCd == '3') ? 'Y' : 'N';
+
+				if (chtnDvCd != '3' &amp;&amp; !$(element).hasClassName('on')) {
+					$(element).addClassName('on');
+				}
+
+				break;
+			case '2' : // 환승
+				target.jrnyTpCd.value = '14';
+				target.jrnyCnt.value  = '2';
+				target.crossYn.value  = 'N';
+
+				switch ($$('input[name="jrnySqno[' + index + ']"]')[0].value) {
+					case '001' : // 선행
+						if (target.trnOrdrNo1.value != '' &amp;&amp; target.trnOrdrNo1.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('이미 선택하신 선행 열차가 존재합니다.');
+							return;
+						} else if (target.trnOrdrNo1.value != '' &amp;&amp; target.psrmClCd1.value != psrmClCd) {
+							window.alert('해당 열차의 다른 객실을 선택하셨습니다.');
+							return;
+						} else if (target.trnOrdrNo2.value != '' &amp;&amp; target.trnOrdrNo2.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('선택하신 열차는 환승 대상 열차가 아닙니다.');
+							return;
+						} else if (isPass &amp;&amp; target.scarYn1.value == 'Y') {
+							window.alert('이미 선택하신 선행 열차가 존재합니다.');
+							return;
+						} else if (isPass &amp;&amp; target.scarYn2.value == 'Y') {
+							window.alert('좌석선택예약은 선/후행 모두 좌석을 선택하셔야 합니다.');
+							return;
+						} else if ('N' != 'Y' &amp;&amp; !$(element).hasClassName('on') &amp;&amp; parseFloat($$('input[name="trainDiscGenRt[' + index + ']"]')[0].value) &gt; 1.0 &amp;&amp; !confirm('1. 해당 할인상품의 취소수수료는 (2017년 조기예매할인 상품과 달리) 일반승차권 반환규정을 적용합니다.\n\n'
+								+ '2. 일정 변경은 SRT앱, 홈페이지, 역에서 취소한 후 다시 구매하셔야 합니다.(※ 이 경우 할인율이 변동될 수 있습니다.)\n\n'
+								+ '3. 특실은 운임만 할인됩니다.\n\n'
+								+ '4. 위 내용을 확인하였으며 동의합니다.')) {
+							return;
+						}
+
+						target.trnOrdrNo1.value      = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="trnOrdrNo[' + index + ']"]')[0].value;
+						target.jrnySqno1.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="jrnySqno[' + index + ']"]')[0].value;
+						target.runDt1.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="runDt[' + index + ']"]')[0].value;
+						target.trnNo1.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="trnNo[' + index + ']"]')[0].value;
+						target.trnGpCd1.value        = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="trnGpCd[' + index + ']"]')[0].value;
+						target.stlbTrnClsfCd1.value  = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+						target.dptDt1.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptDt[' + index + ']"]')[0].value;
+						target.dptTm1.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptTm[' + index + ']"]')[0].value;
+						target.dptRsStnCd1.value     = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptRsStnCd[' + index + ']"]')[0].value;
+						target.dptStnConsOrdr1.value = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptStnConsOrdr[' + index + ']"]')[0].value;
+						target.dptStnRunOrdr1.value  = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptStnRunOrdr[' + index + ']"]')[0].value;
+						target.arvRsStnCd1.value     = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="arvRsStnCd[' + index + ']"]')[0].value;
+						target.arvStnConsOrdr1.value = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="arvStnConsOrdr[' + index + ']"]')[0].value;
+						target.arvStnRunOrdr1.value  = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="arvStnRunOrdr[' + index + ']"]')[0].value;
+						target.scarYn1.value         = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? 'N' : 'Y';
+						target.scarGridcnt1.value    = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="scarGridcnt[' + index + ']"]')[0].value;
+						target.scarNo1.value         = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="scarNo[' + index + ']"]')[0].value;
+						target.seatNo1_1.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_1[' + index + ']"]')[0].value;
+						target.seatNo1_2.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_2[' + index + ']"]')[0].value;
+						target.seatNo1_3.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_3[' + index + ']"]')[0].value;
+						target.seatNo1_4.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_4[' + index + ']"]')[0].value;
+						target.seatNo1_5.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_5[' + index + ']"]')[0].value;
+						target.seatNo1_6.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_6[' + index + ']"]')[0].value;
+						target.seatNo1_7.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_7[' + index + ']"]')[0].value;
+						target.seatNo1_8.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_8[' + index + ']"]')[0].value;
+						target.seatNo1_9.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_9[' + index + ']"]')[0].value;
+						target.psrmClCd1.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : psrmClCd;
+						target.smkSeatAttCd1.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : '000';
+						target.dirSeatAttCd1.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : '000';
+						target.locSeatAttCd1.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : source.locSeatAttCd1.options[source.locSeatAttCd1.selectedIndex].value;
+						target.rqSeatAttCd1.value    = isPass &amp;&amp; $(element).hasClassName('on') ? '' : source.rqSeatAttCd1.options[source.rqSeatAttCd1.selectedIndex].value;
+						target.etcSeatAttCd1.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : '000';
+
+						break;
+					case '002' : // 후행
+						if (target.trnOrdrNo2.value != '' &amp;&amp; target.trnOrdrNo2.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('이미 선택하신 후행 열차가 존재합니다.');
+							return;
+						} else if (target.trnOrdrNo2.value != '' &amp;&amp; target.psrmClCd2.value != psrmClCd) {
+							window.alert('해당 열차의 다른 객실을 선택하셨습니다.');
+							return;
+						} else if (target.trnOrdrNo1.value != '' &amp;&amp; target.trnOrdrNo1.value != $$('input[name="trnOrdrNo[' + index + ']"]')[0].value) {
+							window.alert('선택하신 열차는 환승 대상 열차가 아닙니다.');
+							return;
+						} else if (isPass &amp;&amp; target.scarYn2.value == 'Y') {
+							window.alert('이미 선택하신 선행 열차가 존재합니다.');
+							return;
+						} else if (isPass &amp;&amp; target.scarYn1.value == 'Y') {
+							window.alert('좌석선택예약은 선/후행 모두 좌석을 선택하셔야 합니다.');
+							return;
+						} else if ('N' != 'Y' &amp;&amp; !$(element).hasClassName('on') &amp;&amp; parseFloat($$('input[name="trainDiscGenRt[' + index + ']"]')[0].value) &gt; 1.0 &amp;&amp; !confirm('1. 해당 할인상품의 취소수수료는 (2017년 조기예매할인 상품과 달리) 일반승차권 반환규정을 적용합니다.\n\n'
+								+ '2. 일정 변경은 SRT앱, 홈페이지, 역에서 취소한 후 다시 구매하셔야 합니다.(※ 이 경우 할인율이 변동될 수 있습니다.)\n\n'
+								+ '3. 특실은 운임만 할인됩니다.\n\n'
+								+ '4. 위 내용을 확인하였으며 동의합니다.')) {
+							return;
+						}
+
+						target.trnOrdrNo2.value      = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="trnOrdrNo[' + index + ']"]')[0].value;
+						target.jrnySqno2.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="jrnySqno[' + index + ']"]')[0].value;
+						target.runDt2.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="runDt[' + index + ']"]')[0].value;
+						target.trnNo2.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="trnNo[' + index + ']"]')[0].value;
+						target.trnGpCd2.value        = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="trnGpCd[' + index + ']"]')[0].value;
+						target.stlbTrnClsfCd2.value  = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+						target.dptDt2.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptDt[' + index + ']"]')[0].value;
+						target.dptTm2.value          = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptTm[' + index + ']"]')[0].value;
+						target.dptRsStnCd2.value     = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptRsStnCd[' + index + ']"]')[0].value;
+						target.dptStnConsOrdr2.value = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptStnConsOrdr[' + index + ']"]')[0].value;
+						target.dptStnRunOrdr2.value  = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="dptStnRunOrdr[' + index + ']"]')[0].value;
+						target.arvRsStnCd2.value     = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="arvRsStnCd[' + index + ']"]')[0].value;
+						target.arvStnConsOrdr2.value = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="arvStnConsOrdr[' + index + ']"]')[0].value;
+						target.arvStnRunOrdr2.value  = isPass &amp;&amp; $(element).hasClassName('on') ? '' : $$('input[name="arvStnRunOrdr[' + index + ']"]')[0].value;
+						target.scarYn2.value         = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? 'N' : 'Y';
+						target.scarGridcnt2.value    = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="scarGridcnt[' + index + ']"]')[0].value;
+						target.scarNo2.value         = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="scarNo[' + index + ']"]')[0].value;
+						target.seatNo2_1.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_1[' + index + ']"]')[0].value;
+						target.seatNo2_2.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_2[' + index + ']"]')[0].value;
+						target.seatNo2_3.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_3[' + index + ']"]')[0].value;
+						target.seatNo2_4.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_4[' + index + ']"]')[0].value;
+						target.seatNo2_5.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_5[' + index + ']"]')[0].value;
+						target.seatNo2_6.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_6[' + index + ']"]')[0].value;
+						target.seatNo2_7.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_7[' + index + ']"]')[0].value;
+						target.seatNo2_8.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_8[' + index + ']"]')[0].value;
+						target.seatNo2_9.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : isPass ? '' : $$('input[name="seatNo_9[' + index + ']"]')[0].value;
+						target.psrmClCd2.value       = isPass &amp;&amp; $(element).hasClassName('on') ? '' : psrmClCd;
+						target.smkSeatAttCd2.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : '000';
+						target.dirSeatAttCd2.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : '000';
+						target.locSeatAttCd2.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : source.locSeatAttCd1.options[source.locSeatAttCd1.selectedIndex].value;
+						target.rqSeatAttCd2.value    = isPass &amp;&amp; $(element).hasClassName('on') ? '' : source.rqSeatAttCd1.options[source.rqSeatAttCd1.selectedIndex].value;
+						target.etcSeatAttCd2.value   = isPass &amp;&amp; $(element).hasClassName('on') ? '' : '000';
+
+						break;
+					default :
+						window.alert('유효하지 않은 여정 순서입니다.');
+						return;
+				}
+
+				if (isPass) {
+					if ($(element).hasClassName('on')) {
+						$(element).removeClassName('on');
+						$(element).update('예약하기');
+					} else {
+						$(element).addClassName('on');
+						$(element).update('예약대기');
+					}
+				}
+
+				if (target.trnOrdrNo1.value == '' || target.trnOrdrNo2.value == '') { // 최초 선택
+					return;
+				}
+
+				break;
+			default :
+				window.alert('유효하지 않은 여정 유형입니다.');
+				return;
+		}
+
+		if (isLast) {
+			if (chtnDvCd == '3' &amp;&amp; !selectKorailInfo(index + ($$('input[name="jrnySqno[' + index + ']"]')[0].value == '001' ? 1 : -1), true, 'Y', target.reqTime.value)) {
+				window.alert('코레일 열차정보를 저장하는데 실패하였습니다.');
+				return;
+			}
+
+			if (Navi.showLoading()) {
+				target.submit();
+			}
+		}
+	}
+
+	function selectKorailInfo(index, isRsv, checkYn, reqTime) { 
+		var source = $('search-form');
+		var target = $('korail-form');
+		var stored = true;
+
+		if (!isRsv &amp;&amp; checkYn == 'Y') {
+			window.alert('SRT를 먼저 예약하신 후 코레일 사이트로 이동하여 예약하십시오.');
+			return false;
+		}
+
+		new Ajax.Request('selectMutMrkInfo.do', {
+			asynchronous : false,
+			parameters : {createYn : (window.name == CRS_WIN_NM_SR ? 'N' : 'Y'), mutMrkVrfCd : ''},
+			onSuccess : function (transport) {
+				if (!transport.responseText.isJSON()) {
+					window.alert('데이터를 동기화하는데 실패하였습니다.');
+					stored = false;
+					return;
+				}
+
+				var response = transport.responseText.evalJSON();
+
+				if (response.error) {
+					window.alert(response.error);
+					stored = false;
+					return;
+				}
+
+				target.radJobId.value       = Common.radio(source.chtnDvCd, 1);
+				target.txtGoStartCode.value = source.dptRsStnCd.value;
+				target.txtGoEndCode.value   = source.arvRsStnCd.value;
+				target.txtGoStart.value     = source.dptRsStnCdNm.value;
+				target.txtGoEnd.value       = source.arvRsStnCdNm.value;
+				target.checkStnNm.value     = 'N';
+				target.txtGoAbrdDt.value    = $$('input[name="dptDt[' + index + ']"]')[0].value;
+				target.txtGoHour.value      = $$('input[name="dptTm[' + index + ']"]')[0].value;
+				target.selGoYear.value      = target.txtGoAbrdDt.value.substr(0, 4);
+				target.selGoMonth.value     = target.txtGoAbrdDt.value.substr(4, 2);
+				target.selGoDay.value       = target.txtGoAbrdDt.value.substr(6, 2);
+				target.selGoHour.value      = target.txtGoHour.value.substr(0, 2);
+				target.txtPsgCnt1.value     = source.psgNum.value;
+				target.txtPsgFlg_1.value    = source.psgInfoPerPrnb1.options[source.psgInfoPerPrnb1.selectedIndex].value;
+				target.txtPsgFlg_2.value    = source.psgInfoPerPrnb5.options[source.psgInfoPerPrnb5.selectedIndex].value;
+				target.txtPsgFlg_3.value    = source.psgInfoPerPrnb4.options[source.psgInfoPerPrnb4.selectedIndex].value;
+				target.txtPsgFlg_4.value    = source.psgInfoPerPrnb2.options[source.psgInfoPerPrnb2.selectedIndex].value;
+				target.txtPsgFlg_5.value    = source.psgInfoPerPrnb3.options[source.psgInfoPerPrnb3.selectedIndex].value;
+				target.txtSeatAttCd_2.value = '000';
+				target.txtSeatAttCd_3.value = source.locSeatAttCd1.options[source.locSeatAttCd1.selectedIndex].value;
+				target.txtSeatAttCd_4.value = '015';
+				target.selGoSeat1.value     = source.rqSeatAttCd1.options[source.rqSeatAttCd1.selectedIndex].value;
+				target.ArriveTime.value     = 'N';
+				target.mutMrkVrfCd.value    = response.mutMrkVrfCd;
+				target.selGoTrain.value     = Common.radio(source.trnGpCd, 1) == '900' ? '00' : '05';
+				target.txtGoTrnNo.value     = $$('input[name="trnNo[' + index + ']"]')[0].value;
+				target.txtMenuId.value      = Common.inArray(source.rqSeatAttCd1.options[source.rqSeatAttCd1.selectedIndex].value, ['021', '028']) ? '12' : '11';
+				target.txtGoPage.value      = '1';
+				target.srtCheckYn.value     = checkYn;
+				target.reqTime.value        = reqTime;
+
+				// 사업자간 환승 체크
+				var chtnDvCd = Common.radio(source.chtnDvCd, 1);
+
+				if (chtnDvCd == '2') {
+					var stlbTrnClsfCd1, stlbTrnClsfCd2;
+
+					switch ($$('input[name="jrnySqno[' + index + ']"]')[0].value) {
+						case '001' :
+							stlbTrnClsfCd1 = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+							stlbTrnClsfCd2 = $$('input[name="stlbTrnClsfCd[' + (index + 1) + ']"]')[0].value;
+							break;
+						case '002' :
+							stlbTrnClsfCd1 = $$('input[name="stlbTrnClsfCd[' + (index - 1) + ']"]')[0].value;
+							stlbTrnClsfCd2 = $$('input[name="stlbTrnClsfCd[' + index + ']"]')[0].value;
+							break;
+					}
+
+					if ((stlbTrnClsfCd1 == '17' &amp;&amp; stlbTrnClsfCd1 != stlbTrnClsfCd2) || (stlbTrnClsfCd2 == '17' &amp;&amp; stlbTrnClsfCd1 != stlbTrnClsfCd2)) {
+						chtnDvCd = '3';
+					}
+				}
+
+				// 조회유형에 따른 정보 할당
+				switch (chtnDvCd) {
+					case '2' : // 일반환승 중 후행일 경우 출발일자 및 시간을 선행 열차 정보로 조회 요청
+						if ($$('input[name="jrnySqno[' + index + ']"]')[0].value == '002') {
+							target.txtGoAbrdDt.value = $$('input[name="dptDt[' + (index - 1) + ']"]')[0].value;
+							target.txtGoHour.value   = $$('input[name="dptTm[' + (index - 1) + ']"]')[0].value;
+							target.txtGoTrnNo.value  = $$('input[name="trnNo[' + (index - 1) + ']"]')[0].value;
+							target.selGoYear.value   = target.txtGoAbrdDt.value.substr(0, 4);
+							target.selGoMonth.value  = target.txtGoAbrdDt.value.substr(4, 2);
+							target.selGoDay.value    = target.txtGoAbrdDt.value.substr(6, 2);
+							target.selGoHour.value   = target.txtGoHour.value.substr(0, 2);
+						}
+
+						break;
+					case '3' : // 사업자간 환승일 경우 직통 정보로 조회 요청
+						target.radJobId.value        = '1';
+						target.txtGoStartCode.value  = $$('input[name="dptRsStnCd[' + index + ']"]')[0].value;
+						target.txtGoEndCode.value    = $$('input[name="arvRsStnCd[' + index + ']"]')[0].value;
+						target.txtGoStart.value      = $$('input[name="dptRsStnCdNm[' + index + ']"]')[0].value;
+						target.txtGoEnd.value        = $$('input[name="arvRsStnCdNm[' + index + ']"]')[0].value;
+						break;
+				}
+
+				// 예약완료 후 연결할 코레일 정보 저장
+				if (isRsv) {
+					new Ajax.Request('storeKorailInfo.do', {
+						asynchronous : false,
+						parameters : target.serialize(true),
+						onSuccess : function (transport) {
+							if (!transport.responseText.isJSON()) {
+								window.alert('데이터를 동기화하는데 실패하였습니다.');
+								stored = false;
+								return;
+							}
+						}.bind(this)
+					});
+
+					return;
+				}
+
+				// 코레일 화면 요청
+				
+				var query = '';
+
+				target.getElementsBySelector('input').findAll(function (s) {
+					query += ('&amp;' + s.name + '=' + encodeURIComponentEx(s.value));
+				}.bind(this));
+
+				window.open('http://www.letskorail.com/ebizprd/EbizPrdTicketPr21111_i1.do?1=1' + query, CRS_WIN_NM_KR, '');
+			}.bind(this)
+		});
+
+		return stored;
+	}
+
+	function setAutoComplete(v, l) { 
+		jQuery(l).autocomplete({
+			source : function (request, response) {
+				jQuery.ajax({
+					async : true,
+					type : 'post',
+					url : 'selectStnCdInfo.do',
+					dataType : 'json',
+					data : {query : request.term},
+					success : function(data) {
+						response(
+							jQuery.map(data, function(item) {
+								return {
+									label : item.label,
+									value : item.value
+								}
+							})
+						);
+					}
+				});
+			},
+			focus : function(event, ui) {
+				event.preventDefault();
+
+				jQuery(l).val(ui.item.label);
+				jQuery(v).val(ui.item.value);
+			},
+			select : function(event, ui) {
+				event.preventDefault();
+
+				jQuery(l).val(ui.item.label);
+				jQuery(v).val(ui.item.value);
+			},
+			minLength : 2
+		});
+	}
+
+	function selectStnCdInfo(v, l) { 
+		var completed = true;
+
+		new Ajax.Request('selectStnCdInfo.do', {
+			asynchronous : false,
+			parameters : {query : $(l).value},
+			onSuccess : function (transport) {
+				if (!transport.responseText.isJSON()) {
+					window.alert('데이터를 동기화하는데 실패하였습니다.');
+					return;
+				}
+
+				var response = transport.responseText.evalJSON();
+
+				if (response.error) {
+					window.alert(response.error);
+					return;
+				} else if (response.length &lt;= 0) {
+					completed = false;
+					return;
+				}
+
+				$(v).value = response[0].value;
+			}.bind()
+		});
+
+		return completed;
+	}
+
+	Event.observe(window, 'load', function () {
+		NetFunnel_Complete({});
+
+		$('search-form').getElementsBySelector('select').findAll(function (s) {
+			s.observe('change', function () {
+				try { $('search-list').remove(); } catch (e) {}
+			});
+		}.bind(this));
+
+		$('search-form').getElementsBySelector('input[type=radio]').findAll(function (s) {
+			s.observe('click', function () {
+				try { $('search-list').remove(); } catch (e) {}
+			});
+		}.bind(this));
+	
+	}.bind(this));
+//]]&gt;
+</script>
+
+
+
+
+
+
+
+	
+			</div>
+		</div>
+	
+		<!-- 하단 -->
+		<div class="footer">
+			<dl>
+				<dt><img src="/images/common/logo_footer.png" alt="SR 로고" /></dt>
+				<dd>
+					<ul>
+						<li class="first"><a href="https://www.srail.co.kr/cms/archive.do?pageId=KR9903000000"><strong><span style="color:#ff9000">개인정보처리방침</span></strong></a></li>
+						<li><a href="/cms/archive.do?pageId=TK0505000000">고객서비스헌장</a></li>
+						<li><a href="/cms/archive.do?pageId=TK0506000000">여객운송약관/부속약관</a></li>
+						<li><a href="/cms/archive.do?pageId=TK9902000000">사이트맵</a></li>
+					</ul>
+					<div class="clear"></div>
+					<address>
+						상호 : 주식회사 에스알 | 사업자등록 : 305-86-31590 | 통신판매업신고 : 2016-서울강남-03705호<br />
+						(우 : 06349) 서울특별시 강남구 광평로 281 수서효성빌딩   TEL 1800-1472 | FAX 02) 6484-4093
+						<p>
+							Copyright(c) 2015 SR CO., LTD. All rights reserved.
+						</p>
+					</address>
+					<div class="sns">
+						<ul>
+							<li class="first"><a href="/cms/article/view.do?postNo=76&amp;pageId=TK0502000000"><img src="/images/common/brand_title.png" alt="2017년 대한민국 브랜드 대상" /></a></li>
+              <li><a href="https://etk.srail.co.kr/cms/article/view.do?postNo=91&amp;pageId=TK0502000000"><img src="/images/common/ic_highest.png" alt="highest 대상" /></a></li>
+							<li><a href="https://www.srail.co.kr/cms/article/view.do?postNo=28&amp;pageId=KR0502000000"><img src="/images/common/pr_icsi.png" alt="2015 대한민국  인터넷소통대상 브랜드 부문 대상" /></a></li>
+							<li><img src="/images/common/pr_wa.png" alt="국가공인 웹 접근성 품질인증마크_(사)한국시각장애인연합회 (2017.04.13~2018.04.12)" /></li>
+							<li><a href="http://partners.srail.co.kr" target="_blank" title="새창 열기"><img src="/images/common/sys_purvey.png" alt="전자조달" /></a></li>
+						</ul>
+					</div>
+				</dd>
+			</dl>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+<iframe src="https://www.srail.co.kr/sync.jsp?sync=s5NEQn3KOV4Plp1EDppXVQ%3D%3D" style="width:0; height:0; display:none;" title="로그인 정보 동기화 프레임"></iframe>
+<script type="text/javascript" src="/js/makePCookie.js"></script>
+<script type="text/javascript">
+//&lt;![CDATA[
+	if (Navi.isLoading()) {
+		Navi.hideLoading();
+	}
+
+	
+//]]&gt;
+</script>
+
+
+
+<ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="common-loading" style="height: 1680px; opacity: 0.5;"><img src="/images/common/loading.gif" alt="loading" style="margin-top:808px" /></div></body></html>

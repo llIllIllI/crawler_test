@@ -7,9 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 ch_options = webdriver.ChromeOptions()
-#ch_options.add_argument('headless')
-#ch_options.add_argument('disable-gpu')
-#ch_options.add_argument('window-size=1920x1680')
+ch_options.add_argument('headless')
+ch_options.add_argument('disable-gpu')
+ch_options.add_argument('window-size=1920x1680')
 
 driver = webdriver.Chrome('./chromedriver', options=ch_options)
 driver.implicitly_wait(3)
@@ -40,14 +40,25 @@ def changeAttributeOptionValue (attr_name, attr_value):
 				ENTER = u'\ue007'
 				elem.send_keys(ENTER)
 				break
+def setUpConditionsforTravel ():
+	changeAttributeNameValue('dptRsStnCdNm', "신경주", 1, 0)
+	changeAttributeNameValue('arvRsStnCdNm', "동탄", 1, 0)
+	changeAttributeOptionValue('psgInfoPerPrnb1', "어른 2명")
+	changeAttributeOptionValue('dptDt', "2018/12/16(일)")
+	changeAttributeNameValue('dptTm', "120000", 0, 1)
 
-changeAttributeNameValue('dptRsStnCdNm', "신경주", 1, 0)
-changeAttributeNameValue('arvRsStnCdNm', "동탄", 1, 0)
-changeAttributeOptionValue('psgInfoPerPrnb1', "어른 2명")
-changeAttributeOptionValue('dptDt', "2018/12/16(일)")
-changeAttributeNameValue('dptTm', "120000", 0, 1)
+def dumpPageSource () :
+	with open('./resultPage.txt', 'w', encoding='utf-8') as text_file:
+		text_file.write(driver.page_source)
+	text_file.close()
 
-driver.implicitly_wait(3)
+setUpConditionsforTravel ()
+driver.implicitly_wait(5)
+dumpPageSource ()
+driver.execute_script("requestReservationInfo(, 3, '2', '1101', true, false)")
+#if("text for reservation" in driver.page_source):
+	#do something
+
 driver.save_screenshot('./test.png')
 print("Quit")
-#driver.quit()
+driver.quit()

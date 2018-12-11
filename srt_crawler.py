@@ -30,22 +30,24 @@ def changeAttributeNameValue (attr_name, attr_value, clear, submit):
 		print("Cannot find element " + attr_name)
 		
 def changeAttributeOptionValue (attr_name, attr_value):
-        elem = driver.find_element_by_name(attr_name)
-        for option in elem.find_elements_by_tag_name('option'):
-            if option.text == attr_value:
-                break
+		elem = driver.find_element_by_name(attr_name)
+		for option in elem.find_elements_by_tag_name('option'):
+			if option.text != attr_value:
+				print (option.text + ", Go Down")
+				ARROW_DOWN = u'\ue015'
+				elem.send_keys(ARROW_DOWN)
+			else:
+				ENTER = u'\ue007'
+				elem.send_keys(ENTER)
+				break
 
-            else:
-                ARROW_DOWN = u'\ue015'
-                elem.send_keys(ARROW_DOWN)
-				
 changeAttributeNameValue('dptRsStnCdNm', "신경주", 1, 0)
 changeAttributeNameValue('arvRsStnCdNm', "동탄", 1, 0)
-changeAttributeOptionValue('dptDt', "2018/12/16(일)")
 changeAttributeOptionValue('psgInfoPerPrnb1', "어른 2명")
+changeAttributeOptionValue('dptDt', "2018/12/16(일)")
 changeAttributeNameValue('dptTm', "120000", 0, 1)
 
 driver.implicitly_wait(3)
 driver.save_screenshot('./test.png')
 print("Quit")
-driver.quit()
+#driver.quit()

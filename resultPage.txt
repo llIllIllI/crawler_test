@@ -19,7 +19,7 @@
 	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/css/ie7.css" /><![endif]-->
 	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/css/ie8.css" /><![endif]-->
 	<!--[if IE 9]><link rel="stylesheet" type="text/css" href="/css/ie9.css" /><![endif]-->
-	<script src="https://connect.facebook.net/signals/config/360841527675197?v=2.8.34&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript">
+	<script src="https://connect.facebook.net/signals/config/360841527675197?v=2.8.35&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript">
 	//&lt;![CDATA[
 		var MAIN_CONTEXT_PATH = '';
 		var WWW_DOMAIN = 'https://www.srail.co.kr';
@@ -69,7 +69,7 @@
 /&gt;</noscript>
 <!-- End Facebook Pixel Code -->
 
-<script src="https://nf.letskorail.com:443/ts.wseq?opcode=5101&amp;nfid=0&amp;prefix=NetFunnel.gRtype=5101;&amp;sid=service_1&amp;aid=act_9&amp;js=true&amp;1544511354984"></script></head>
+<script src="https://nf.letskorail.com:443/ts.wseq?opcode=5101&amp;nfid=0&amp;prefix=NetFunnel.gRtype=5101;&amp;sid=service_1&amp;aid=act_9&amp;js=true&amp;1545268115029"></script></head>
 <body>
 
 	<div id="wrap">
@@ -409,25 +409,7 @@
 							<a href="#none" onclick="selectMapInfo(this, 'arv'); return false;" class="map" title="레이어 열기">지도열기</a>
 							<select name="dptDt" class="ymd checkForm" onchange="changeWeekInfo();" option="{isMust :false, message : '출발일자를 선택하십시오.'}" title="출발일자 선택">
 							
-								<option value="20181211" selected="selected">2018/12/11(화)</option>
-							
-								<option value="20181212">2018/12/12(수)</option>
-							
-								<option value="20181213">2018/12/13(목)</option>
-							
-								<option value="20181214">2018/12/14(금)</option>
-							
-								<option value="20181215">2018/12/15(토)</option>
-							
-								<option value="20181216">2018/12/16(일)</option>
-							
-								<option value="20181217">2018/12/17(월)</option>
-							
-								<option value="20181218">2018/12/18(화)</option>
-							
-								<option value="20181219">2018/12/19(수)</option>
-							
-								<option value="20181220">2018/12/20(목)</option>
+								<option value="20181220" selected="selected">2018/12/20(목)</option>
 							
 								<option value="20181221">2018/12/21(금)</option>
 							
@@ -473,6 +455,24 @@
 							
 								<option value="20190111">2019/01/11(금)</option>
 							
+								<option value="20190112">2019/01/12(토)</option>
+							
+								<option value="20190113">2019/01/13(일)</option>
+							
+								<option value="20190114">2019/01/14(월)</option>
+							
+								<option value="20190115">2019/01/15(화)</option>
+							
+								<option value="20190116">2019/01/16(수)</option>
+							
+								<option value="20190117">2019/01/17(목)</option>
+							
+								<option value="20190118">2019/01/18(금)</option>
+							
+								<option value="20190119">2019/01/19(토)</option>
+							
+								<option value="20190120">2019/01/20(일)</option>
+							
 							</select>
 							<select name="dptTm" class="date checkForm" option="{isMust : false, message : '출발시각을 선택하십시오.'}" title="출발시각 선택">
 							
@@ -486,11 +486,11 @@
 							
 								<option value="080000">08</option>
 							
-								<option value="100000">10</option>
+								<option value="100000" selected="selected">10</option>
 							
 								<option value="120000">12</option>
 							
-								<option value="140000" selected="selected">14</option>
+								<option value="140000">14</option>
 							
 								<option value="160000">16</option>
 							
@@ -811,7 +811,7 @@
 
 				break;
 			case 'NEXT' :
-				o.getElementsBySelector('fieldset')[0].insert('&lt;input type="hidden" name="prvTms" value="140000" /&gt;');
+				o.getElementsBySelector('fieldset')[0].insert('&lt;input type="hidden" name="prvTms" value="100000" /&gt;');
 				break;
 		}
 
@@ -1672,4 +1672,4 @@
 
 
 
-<ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="common-loading" style="height: 1680px; opacity: 0.5;"><img src="/images/common/loading.gif" alt="loading" style="margin-top:808px" /></div></body></html>
+<ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="common-loading" style="height: 1093px; opacity: 0.5;"><img src="/images/common/loading.gif" alt="loading" style="margin-top:400px" /></div></body></html>
